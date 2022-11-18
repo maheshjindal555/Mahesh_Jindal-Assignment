@@ -1,30 +1,25 @@
 //String
 locals {
-  s    = "string.txt"
-  con1 = "Default String file"
+  b    = "string.txt"
+  content1 = "Local String"
 }
 //Number
 locals {
-  n    = "number.txt"
-  con2 = "Default number file"
+  c    = "number.txt"
+  content2 = "Local Number"
 }
 //List
 locals {
-  l    = "list.txt"
-  con3 = "Default list file"
+  d    = "list.txt"
+  content3 = "Local List"
 }
 //Map
 locals {
-  m    = "map.txt"
-  con4 = "Default map file"
+  e    = "map.txt"
+  content4 = "Local Map"
 }
 //Object
 locals {
-  o    = "obj.txt"
-  con5 = "Default object file"
-}
-//Boolean
-locals {
-  b     = "bool.txt"
-  con6 = "Default boolean file"
+  f    = "obj.txt"
+  content5 = "Local Object"
 }
